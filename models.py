@@ -2,7 +2,7 @@
 
 from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
 from sqlalchemy.orm import sessionmaker, relationship, declarative_base
-from config import DATABASE_CONFIG
+#from config import DATABASE_CONFIG
 
 # Create an engine
 engine = create_engine(f'postgresql://admin:cWR0RwyL715nufQabXHme5ou8QASIxvh@dpg-cq7vl3ggph6c73ev22bg-a.oregon-postgres.render.com/demodb_gp75', echo=True)
